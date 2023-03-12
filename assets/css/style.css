@@ -1,0 +1,222 @@
+.navbar-nav li {
+    padding-left: 40px;
+    padding-right: 25px;
+}
+header {
+    /* background-color: rgba(98, 131, 150, 255); */
+    /* background-color: #628396; */
+    background-color: white;  
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar {
+    height: 75px;
+    background-color: #a0da87;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top:5px;
+}
+/* .np{
+    background-color: #FFC600;
+} */
+
+ul {
+    font-size: 18px;
+    
+}
+.navbar-nav li a{
+    color: white;
+}
+h2{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    color: rgba(146, 163, 173, 255);
+}
+h3{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom:30px;
+    color: rgb(17, 164, 120);
+}
+h6{
+    font-size: 18px;
+    align-self: center;
+}
+
+h6 p{
+    text-align: center;
+}
+/* .navbar{
+ color:#5B8FB9;
+} */
+/* Modify brand and text color */
+
+.onimg img {
+    position: relative;
+}
+
+.onimg h1 {
+    position: absolute;
+    /* bottom: 300px; */
+    bottom: 200px;
+    margin-right: 500px;
+    font-size: 80px;
+    /* left: 40%; */
+    justify-content: right;
+    /* display: flex; */
+    color: #0aa558;
+}
+.onimg span{
+    font-size: 70px;
+    height: auto;
+}
+
+h1 span {
+    color: rgba(54, 87, 109, 255);
+    /* color: #B1D7B4; */
+        /* color: #810034; */
+}
+.i h1{
+    animation: move;
+}
+.onimg span::before {
+    content: "by providing you best treatment";
+    animation: animate infinite 10s;
+    padding-left: 0px;
+}
+@keyframes animate {
+    25% {
+        content: "for Your Health Every Moment";
+    }
+
+    50% {
+        content: "of your time";
+    }
+
+    100% {
+        content: "by providing you best treatment";
+    }
+}
+@keyframes movem {
+    from {
+        bottom: 0px;
+    }
+
+    to {
+        bottom: 300px;
+    }
+}
+
+
+.clr{
+    color: #628396;
+}
+footer{
+    background-color: #a0da87;
+}
+
+/*----  Main Style  ----*/
+/* .card {
+    text-align: center;
+    background: #F7F7F7;
+}
+
+.card .container {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.card a {
+    text-decoration: none;
+    outline: none;
+}
+
+.card .card-flyer {
+    border-radius: 5px;
+} */
+.card img {
+    width: 75px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.card .card-flyer img {
+    /* background: #ffffff; */
+    overflow: hidden;
+    /* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50); */
+}
+
+/* .card .card-flyer img {
+    -webkit-transition: all .9s ease;
+    -moz-transition: all .9s ease;
+    -o-transition: all .9s ease;
+    -ms-transition: all .9s ease;
+    width: 30%;
+    height: 80px;
+} */
+
+.card .card-flyer:hover img {
+    opacity: 0.8;
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+/* .card .card-flyer .text-box {
+    text-align: center;
+} */
+
+/* .card .card-flyer .text-box .text-container {
+    padding: 30px 18px;
+} */
+.card-text{
+    height: 75px;
+}
+.card .card-flyer {
+    background: #FFFFFF;
+    margin-top: 5px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    /* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.40); */
+}
+
+.card .card-flyer:hover {
+    background: #ffffff;
+    /* box -shadow: 0px 15px 26px rgba(0, 0, 0, 0.50); */
+    box-shadow: 0px 5px 8px 5px rgba(0, 0, 0, 0.50);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    margin-top: 5px;
+    /* margin-bottom: 8px; */
+}
+
+/* .card .card-flyer p {
+    margin-top: 0px;
+    margin-bottom: 100px;
+    padding-bottom: 0px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000000;
+} */
+
+/* .card .card-flyer h5 {
+    margin-top: 0px;
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto Black', sans-serif;
+    letter-spacing: 1px;
+    color: #00acc1;
+} */
