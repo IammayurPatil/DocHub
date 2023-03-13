@@ -60,6 +60,7 @@ h6 p{
 
 .onimg img {
     position: relative;
+    min-width: 100%;
 }
 
 .onimg h1 {
