@@ -1,6 +1,9 @@
-.navbar-nav li {
-    padding-left: 40px;
-    padding-right: 25px;
+.navbar-nav a {
+    color: #ffffff;
+    /* font-weight: bold; */
+    font-size: 18px;
+    margin-left: 12px;
+    margin-right: 52px;
 }
 header {
     /* background-color: rgba(98, 131, 150, 255); */
@@ -11,15 +14,15 @@ header {
     z-index: 1;
 }
 .navbar {
-    height: 75px;
+    /* height: 75px; */
     background-color: #a0da87;
     position: relative;
 }
 .logo{
     position: absolute;
-    top:5px;
+    top: 0px;
 }
-/* .np{
+/* .np{     
     background-color: #FFC600;
 } */
 
@@ -27,9 +30,9 @@ ul {
     font-size: 18px;
     
 }
-.navbar-nav li a{
+/* .navbar-nav li a{
     color: white;
-}
+} */
 h2{
     text-align: center;
     padding-bottom: 30px;
@@ -200,7 +203,9 @@ footer{
     margin-top: 5px;
     /* margin-bottom: 8px; */
 }
-
+.Useful_link p a{
+    text-decoration: none;
+}
 /* .card .card-flyer p {
     margin-top: 0px;
     margin-bottom: 100px;
