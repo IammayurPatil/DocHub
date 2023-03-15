@@ -50,8 +50,8 @@ header {
 
 .navbar {
     /* height: 75px; */
-    /* background-color: #1561ad; */
-    background-color: #ffffff;
+    background-color: #ECECEC;
+    /* background-color: #ffffff; */
     /* background-color: rgb(236, 236, 236); */
     position: relative;
 }
@@ -194,7 +194,7 @@ select {
 }
 
 .text-area {
-    background-color: #e8faff;
+    background-color: #f5f8f9;
 }
 
 .search {
