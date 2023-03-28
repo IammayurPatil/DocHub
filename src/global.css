@@ -1,0 +1,53 @@
+:root {
+    --primary-color: rgba(0, 124, 157, 0.9);
+    --helper-color: rgba(0, 160, 156, 0.9);
+    --background-color: rgb(236, 236, 236);
+    --font-color: #212529;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-X: hidden;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 7px;
+}
+
+p {
+    font-size: 15px;
+    color: var(--font-color);
+}
+
+.nav-link {
+    color: var(--primary-color);
+    margin: 0px 7px;
+}
+
+.nav-link:hover {
+    display: block;
+    color: white;
+    background-color: var(--primary-color);
+
+}
+
+.dropdown-menu {
+    background-color: var(--background-color);
+}
+
+header {
+    background-color: rgb(236, 236, 236);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
