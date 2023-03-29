@@ -1,4 +1,5 @@
 import React from "react";
+
 // import Header from "../../components/common/Header";
 // import logo from "../../assets/images/main_logo.png";
 import banner from "../../assets/images/banner.png";
@@ -25,11 +26,11 @@ const Home = () => {
           </h1>
         </div>
       </section>
-      <div className="no-gutters d-flex justify-content-center search ">
+      <div className="no-gutters d-flex justify-content-center search">
         <div className="loc">
           <select
-            className="form-control text-area "
-            id="exampleFormControlSelect1"
+            className="form-control text-area"
+            // id="exampleFormControlSelect1"
           >
             <option>Location</option>
             <option>London</option>
@@ -43,7 +44,7 @@ const Home = () => {
         <div className="name">
           <select
             className="form-control text-area"
-            id="exampleFormControlSelect1"
+            // id="exampleFormControlSelect1"
           >
             <option>Location</option>
             <option>London</option>

@@ -30,6 +30,7 @@ p {
 }
 
 .nav-link {
+    font-size: 18px;
     color: var(--primary-color);
     margin: 0px 7px;
 }
