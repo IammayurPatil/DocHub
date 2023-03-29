@@ -19,6 +19,12 @@
         max-width: 100%;
     }
 }
+:root {
+    --primary-color: rgba(0, 124, 157, 0.9);
+    --helper-color: rgba(0, 160, 156, 0.9);
+    --background-color: rgb(236, 236, 236);
+    --font-color: #212529;
+}
 
 * {
     padding: 0px;
@@ -38,17 +44,20 @@ body {
 
 .heading h1 {
     font-size: 50px;
-    color: black;
+    /* font-weight: 550; */
+    color: var(--primary-color);
     margin-bottom: 10px;
 }
 
 .heading p {
     font-size: 20px;
-    color: black;
+    font-weight:510;
+    /* color: black; */
+    color: var(--helper-color); 
     margin-bottom: 50px;
 }
 .read-more-btn {
-    display: inline-block;
+    /* display: inline-block;
     color: #fff;
     background-color: rgba(0, 124, 157, 0.9);
     border: none;
@@ -56,7 +65,17 @@ body {
     padding: 12px 20px;
     font-size: 18px;
     cursor: pointer;
-    transition: 0.2s ease;
+    transition: 0.2s ease; */
+    display: inline-block;
+    color: var(--font-color);
+    padding: 12px 15px;
+    border: 1px solid var(--primary-color);
+    background-color: #ffffff;
+    text-decoration: none;
+}
+.read-more-btn:hover{
+        background-color: var(--primary-color);
+        color: #ffffff;
 }
 .why {
     background-color: whitesmoke;
@@ -95,13 +114,17 @@ ul {
     text-align: center;
     padding-bottom: 30px;
     padding-top: 50px;
-    color: black;
+    /* color: black; */
+    color: var(--primary-color);
 }
 
 .function img {
     width: 75px;
     margin-top: 25px;
     margin-left: 20px;
+}
+.card-body h5{
+    color: var(--helper-color);
 }
 
 .card .card-flyer img {
@@ -200,6 +223,7 @@ ul {
 
 p {
     hyphens: auto;
+    color: var(--font-color);
     /* margin-bottom: 10px; */
     font-size: 14px;
     line-height: 26px;
@@ -239,20 +263,23 @@ p {
 }
 
 h2 {
-    color: #121521;
-    font-weight: 700;
+    /* color: #121521; */
+    /* color: #015c5a; */
+    color: var(--primary-color);
+    /* font-weight: 550; */
     font-family: "Poppins", sans-serif;
     text-transform: capitalize;
     line-height: 1.4;
 }
 
 .about-content-two h2 {
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 20px;
 }
 
 p {
     font-size: 15px;
+    color: var(--font-color);
     margin-bottom: 15px;
     line-height: 1.8;
 }

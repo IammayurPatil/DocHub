@@ -1,5 +1,5 @@
 import React from "react";
-import abt_img from "../../assests/images/about-img.jpg";
+import abt_img from "../../assests/images/abt_img_1.jpg";
 import explore from "../../assests/images/explore.png";
 import match from "../../assests/images/match.png";
 import arrange from "../../assests/images/arrange.png";
@@ -37,26 +37,20 @@ const About = () => {
                 <h2>Tackle The Challenge Of Delivering Health Care</h2>
                 <p></p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi consectetur adipiscing elit incididunt labore
-                  dolore magna. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi consectetur adipiscing elit
-                  incididunt labore dolore magna.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi consectetur adipiscing elit incididunt labore
-                  dolore magna. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi consectetur adipiscing elit
-                  incididunt labore dolore magna.
+                  Welcome to our appointment booking website! We are dedicated
+                  to making healthcare more accessible and convenient for
+                  everyone. Our platform allows patients to easily book
+                  appointments with multiple hospitals and healthcare providers,
+                  all in one place. At our core, we believe that healthcare
+                  should be patient-centered, and that starts with easy access
+                  to healthcare services. With our website, patients can quickly
+                  search for healthcare providers and hospitals based on their
+                  location, insurance coverage, and specialty. Our team is made
+                  up of healthcare professionals and technology experts who are
+                  passionate about improving healthcare access. We work closely
+                  with hospitals and healthcare providers to ensure that our
+                  platform is user-friendly and efficient for both patients and
+                  providers.
                 </p>
                 <p></p>
                 <button className="read-more-btn">Read More</button>
